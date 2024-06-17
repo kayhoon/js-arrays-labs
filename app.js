@@ -147,6 +147,29 @@ Complete Exercise 9 in the space below:
 */
 
 
+// const foods = [`pizza`, `chesseburger`]
+// foods.splice(1, 0, `tofu`)
+// foods.splice(0, 1, `sushi`, `cupcake`)
+// foods.unshift(`taco`)
+// favFood = foods[1]
+// const yummy = foods.slice(1, 3)
+// const soyIdx = foods.indexOf(`tofu`)
+// const allFoods = foods.join(`->`)
+
+// console.log('Exercise 9 result:', allFoods);
+
+/*
+Exercise 10: Check for an element
+
+1) Using the .includes() method, check if the `foods` array contains the string
+   'soup'.
+
+2) Assign the result to a variable called `hasSoup``.
+
+Complete Exercise 10 in the space below:
+*/
+
+
 const foods = [`pizza`, `chesseburger`]
 foods.splice(1, 0, `tofu`)
 foods.splice(0, 1, `sushi`, `cupcake`)
@@ -155,7 +178,9 @@ favFood = foods[1]
 const yummy = foods.slice(1, 3)
 const soyIdx = foods.indexOf(`tofu`)
 const allFoods = foods.join(`->`)
+const hasSoup = foods.includes(`soup`)
 
-console.log('Exercise 9 result:', allFoods);
+
+console.log('Exercise 10 result:', hasSoup);
 
 
