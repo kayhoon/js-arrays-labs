@@ -64,10 +64,27 @@ Exercise 5: Insert an element between two others
 Complete Exercise 5 in the space below:
 */
 
+// const foods = [`pizza`, `chesseburger`]
+// foods.splice(1,0, `tofu`)
+// foods.unshift(`taco`)
+// favFood = foods[1]
+
+// console.log('Exercise 5 result:', foods);
+
+
+/*
+Exercise 6: Replace elements
+
+1) Replace 'pizza' in the `foods` array with 'sushi' and 'cupcake'.
+
+Complete Exercise 6 in the space below:
+*/
+
 const foods = [`pizza`, `chesseburger`]
 foods.splice(1,0, `tofu`)
+foods.splice(0, 1, `sushi`, `cupcake`)
 foods.unshift(`taco`)
 favFood = foods[1]
 
-console.log('Exercise 5 result:', foods);
+console.log('Exercise 6 result:', foods);
 
