@@ -102,7 +102,9 @@ Complete Exercise 7 in the space below:
 const foods = [`pizza`, `chesseburger`]
 foods.splice(1, 0, `tofu`)
 foods.splice(0, 1, `sushi`, `cupcake`)
-const yummy = foods.slice(0, 2)
+foods.unshift(`taco`)
+favFood = foods[1]
+const yummy = foods.slice(1, 3)
 
 console.log('Exercise 7 result:', yummy);
 
